@@ -42,22 +42,21 @@ import com.muradnajafli.quizapp.R
 fun UserPanel() {
     Row(
         modifier = Modifier
-            .background(Color.White)
             .fillMaxWidth()
-            .padding(8.dp),
+            .padding(16.dp),
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.SpaceBetween
     ) {
         Column {
             Text(
                 text = "Hi, Jhon",
-                fontSize = 24.sp,
+                fontSize = 28.sp,
                 fontWeight = FontWeight.Bold
             )
             Spacer(modifier = Modifier.height(4.dp))
             Text(
                 text = "Let's make this day productive!",
-                fontSize = 14.sp,
+                fontSize = 16.sp
             )
         }
         Image(
